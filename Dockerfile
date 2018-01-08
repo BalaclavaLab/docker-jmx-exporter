@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ENV JMX_EXPORTER=0.7 CONFD=0.11.0
+ENV JMX_EXPORTER=0.1.0 CONFD=0.14.0
 
 RUN apk add wget --no-cache \
   && mkdir -p /opt/jmx_prometheus_httpserver \
