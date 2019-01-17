@@ -1,4 +1,4 @@
-FROM openjdk:12-ea-27-jdk-alpine3.8
+FROM openjdk:12-ea-25-jdk-alpine3.8
 
 ENV JMX_EXPORTER=0.11.0
 
