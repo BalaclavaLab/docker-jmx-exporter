@@ -1,6 +1,6 @@
-FROM openjdk:12-ea-25-jdk-alpine3.8
+FROM openjdk:14-ea-jdk-alpine3.10
 
-ENV JMX_EXPORTER=0.11.0
+ENV JMX_EXPORTER=0.12.0
 
 EXPOSE 8080
 
